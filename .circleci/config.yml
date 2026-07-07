@@ -19,3 +19,8 @@ jobs:
             docker tag hello-world-printer $USERNAME/hello-world-printer-k7-2026
             docker push $USERNAME/hello-world-printer-k7-2026
             docker logout
+
+workflows:
+  basic:
+    jobs:
+      - build-and-test
