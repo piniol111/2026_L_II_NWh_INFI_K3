@@ -1,0 +1,5 @@
+# Foldery i pliki do zignorowania
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
